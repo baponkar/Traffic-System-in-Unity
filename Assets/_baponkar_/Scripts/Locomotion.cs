@@ -5,7 +5,7 @@ using UnityEngine;
 public class Locomotion : MonoBehaviour
 {
     Animator animator;
-    float speed = 0.0f;
+    public float speed = 0.5f;
     CharacterController controller;
     // Start is called before the first frame update
     void Start()
@@ -17,7 +17,6 @@ public class Locomotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speed = controller.velocity.magnitude;
-        animator.SetFloat("speed", .5f);
+        animator.SetFloat("speed", speed);
     }
 }
