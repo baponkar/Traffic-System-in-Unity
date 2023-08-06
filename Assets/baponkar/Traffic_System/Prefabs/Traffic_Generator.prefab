@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8594801041197644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8594801041197646}
+  - component: {fileID: 8594801041197647}
+  m_Layer: 0
+  m_Name: Traffic_Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8594801041197646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594801041197644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8594801041197647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8594801041197644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a611fc1b012b446b3f4783ce2d22ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trafficPrefabs:
+  - {fileID: 8199614569258455670, guid: d2ad82fa5ae638041802d2723cf35304, type: 3}
+  - {fileID: 5435364685241172668, guid: eccd8d9877b033241b8808c5595eec1f, type: 3}
+  - {fileID: 7166049294441403091, guid: 4f1c760226e07f74e89333204339bc7c, type: 3}
+  - {fileID: 7393456043205777829, guid: d02e6bb6d4090af4fa37deb7ef998dc4, type: 3}
+  - {fileID: 6959119403043961519, guid: 25f1a148c88875e43bd21fce4a6202d4, type: 3}
+  - {fileID: 3495921627357522353, guid: f8e601720cb8ae94faa24d23b9f5d822, type: 3}
+  - {fileID: 7975949623689704666, guid: 76e37c5cfe48c02428c63cd8e80054b4, type: 3}
+  - {fileID: 1835904955181053025, guid: 5c66fd9b89df3d646b699d3d8064cab7, type: 3}
+  waypointsTransform: {fileID: 0}
+  maxTraffic: 10
